@@ -4,6 +4,7 @@
     width: 100%;
     height: auto;
     padding: 2rem;
+    padding-bottom: 5rem;
 }
 
 .project_image_container {
@@ -37,6 +38,7 @@
     position: relative;
     overflow: hidden;
     margin: 10px;
+    cursor: pointer;
 }
   
 .img_box img {
@@ -58,6 +60,7 @@
         display: grid;
         grid-template-columns: auto auto auto;
     }
+
 }
 
 @media screen and (max-width: 1160px) {
